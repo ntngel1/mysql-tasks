@@ -4,7 +4,7 @@ USER=root
 PASSWORD=root
 
 echo "Executing 1.sql"
-mysql -u $USER "-p$PASSWORD" < 1.sql
+mysql -u $USER "-p$PASSWORD" < ./queries/1.sql
 echo
 
 echo "Executing 2.sql"
